@@ -18,7 +18,7 @@ frame_cnt=35000;%frame count
 Ks=[5 10 25];%pilot count
 fer_lim=100000;%frame error limit
 SNR_dB=0:2:20;%snr values in db
-SNR=1./(2*(10.^SNR_dB./10));%snr values in bit energy
+SNR=1./(2*(10.^(SNR_dB./10)));%snr values in bit energy
 ber_snr=zeros(1,length(SNR_dB));%ber vs snr vector
 %--------------------------------------------------------------------------
 %iterations----------------------------------------------------------------

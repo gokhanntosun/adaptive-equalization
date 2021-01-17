@@ -12,6 +12,6 @@ finite arithmetic nature of the computers, a more accurate claculation of
 Kalman gain vector is achieved by introducing an extra variable, pi, to the
 calculation. That is why Kalman gain vector is calculated with two steps.
 
--Instead of LMS algorithm, normalized LMS algorithm is used. Normalized LMS
+- Instead of LMS algorithm, normalized LMS algorithm is used. Normalized LMS
 algorithm normalizes the update term with respect to the observation vector.
 This helps with stability and convergence performance of the algorithm.

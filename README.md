@@ -1,5 +1,5 @@
 # adaptive_eq
--This repository includes implementations of RLS(Recursive Least Squares) and LMS(Least Mean Squares).
+-This repository includes implementations of RLS(Recursive Least Squares), LMS(Least Mean Squares) and a Monte Carlo simulation. Results are presented as SNR vs. BER plot.
 
 --------------------------------------------------------------------------------------------------
 NOTES---------------------------------------------------------------------------------------------
